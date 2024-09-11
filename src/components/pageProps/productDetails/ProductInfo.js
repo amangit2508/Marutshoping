@@ -38,7 +38,7 @@ const ProductInfo = ({ productInfo }) => {
       <p className="text-base text-gray-600">{renderDescription()}</p>
 
       <div className="flex items-center">
-        <p className="text-sm mr-2"> leave a review </p>
+        <p className="text-sm mr-2"> Leave a review </p>
 
         <svg
           className="w-4 h-4 text-yellow-300 ms-1"
@@ -87,7 +87,7 @@ const ProductInfo = ({ productInfo }) => {
         </svg>
       </div>
 
-      <p className="text-base text-green-600 font-medium">En Stock</p>
+      <p className="text-base text-green-600 font-medium">In Stock</p>
       <p className="font-medium text-lg">
         <span className="font-normal">Colors:</span> {productInfo.color}
       </p>
@@ -111,7 +111,7 @@ const ProductInfo = ({ productInfo }) => {
       </button>
       <p className="font-normal text-sm">
         <span className="text-base font-medium"> Categories:</span> Spring
-        collection, Streetwear, Women Tags: featured SKU: N/A
+        collection, Streetwear, Women 
       </p>
     </div>
   );

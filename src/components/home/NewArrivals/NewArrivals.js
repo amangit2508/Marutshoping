@@ -54,57 +54,47 @@ const NewArrivals = () => {
           <Product
             _id="100001"
             img={newArrOne}
-            productName="Round Table Clock"
+            productName="Glasses"
             price="44.00"
             color="Black"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="This is a portable glasses that is designed to be worn on the face or carried in the pocket."
           />
         </div>
         <div className="px-2">
           <Product
             _id="100002"
             img={newArrTwo}
-            productName="Smart Watch"
+            productName="Smartwatches"
             price="250.00"
             color="Black"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="A smartwatch that offers extra functionality and connectivity on top of the features offered by standard watches."
           />
         </div>
         <div className="px-2">
           <Product
             _id="100003"
             img={newArrThree}
-            productName="cloth Basket"
+            productName="Superbikes"
             price="80.00"
             color="Mixed"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Unleash the thrill of ultimate speed and precision with our cutting-edge superbikes, engineered for those who crave the ride of a lifetime."
           />
         </div>
         <div className="px-2">
           <Product
             _id="100004"
             img={newArrFour}
-            productName="Funny toys for babies"
+            productName="Shirts for Mens"
             price="60.00"
             color="Mixed"
             badge={false}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Choosing the right shirt for yourself is the biggest issue resolved here."
           />
         </div>
-        <div className="px-2">
-          <Product
-            _id="100005"
-            img={newArrTwo}
-            productName="Funny toys for babies"
-            price="60.00"
-            color="Mixed"
-            badge={false}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
-          />
-        </div>
+        
       </Slider>
     </div>
   );

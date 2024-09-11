@@ -16,38 +16,38 @@ const BestSellers = () => {
         <Product
           _id="1011"
           img={bestSellerOne}
-          productName="Flower Base"
+          productName="Asus Vivobook"
           price="35.00"
           color="Blank and White"
           badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="Experience power and style in perfect harmony with the ASUS VivoBook, designed for those who work, create, and play without limits."
         />
         <Product
           _id="1012"
           img={bestSellerTwo}
-          productName="New Backpack"
+          productName="Mackbook-Pro"
           price="180.00"
           color="Gray"
           badge={false}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="Redefine performance and elegance with the MacBook where innovation meets seamless productivity."
         />
         <Product
           _id="1013"
           img={bestSellerThree}
-          productName="Household materials"
+          productName=" Predator"
           price="25.00"
           color="Mixed"
           badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="Dominate the game with the Predator laptop, where fierce power and cutting-edge technology collide."
         />
         <Product
           _id="1014"
           img={bestSellerFour}
-          productName="Travel Bag"
+          productName="HP"
           price="220.00"
           color="Black"
           badge={false}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="Empower your potential with the HP laptop, where reliability meets performance for every task."
         />
       </div>
     </div>

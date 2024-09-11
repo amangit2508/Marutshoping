@@ -16,6 +16,7 @@ const CustomSlide = ({ Subtext, imgSrc, text, buttonLink, buttonText }) => (
       display: "flex",
       justifyContent: "center",
       alignItems: "center", // Center vertically
+      padding: "20px", // Add padding for better responsiveness
     }}
   >
     <div
@@ -44,14 +45,21 @@ const CustomSlide = ({ Subtext, imgSrc, text, buttonLink, buttonText }) => (
         {Subtext}
       </p>
 
-      <Link to="/about">
+      <Link to={buttonLink}>
         <button className="bg-primeColor text-white text-lg font-bodyFont w-[185px] h-[50px] hover:bg-black duration-300 font-bold">
           {buttonText}
         </button>
       </Link>
     </div>
     <div style={{ marginLeft: "100px" }}>
-      <Image imgSrc={imgSrc} />
+      <Image
+        imgSrc={imgSrc}
+        style={{
+          maxWidth: imgSrc === bannerImgThree ? "80%" : "100%", // Specific width adjustment for bannerImgThree
+          height: "auto",
+          maxHeight: imgSrc === bannerImgThree ? "350px" : "400px", // Specific maxHeight for bannerImgThree
+        }}
+      />
     </div>
   </div>
 );
@@ -152,31 +160,32 @@ const Banner = () => {
   const slides = [
     {
       imgSrc: bannerImgOne,
-      text: "Enhance Your Printing Experience",
+      text: "Enhance Your Timing Experience",
       Subtext:
-        "Explore our premium printers and consumables for exceptional results",
+        "Explore our premium watches and consumables for exceptional results",
       buttonLink: "/offer",
       buttonText: "Shop Now",
     },
     {
-      imgSrc: bannerImgOne,
-      text: "Quality Printing Solutions",
+      imgSrc: bannerImgTwo,
+      text: "Quality Watches",
       Subtext:
-        "Discover our wide range of printers and consumables designed for professional printing needs.",
+        "Best in the buisness to capture the unrealistic moments forever.",
       buttonLink: "/shop",
       buttonText: "About-us",
     },
     {
-      imgSrc: bannerImgOne,
+      imgSrc: bannerImgThree,
       text: "Efficiency Redefined",
       Subtext:
-        "Maximize productivity with our advanced printers and high-quality consumables. ",
+        "Maximize hearing efficiency with our advanced Earpods and high-quality products.",
       buttonLink: "/contact",
       buttonText: "Contact-us",
     },
 
     // Add more slides as needed
   ];
+
   return (
     <div className="w-full bg-white">
       <Slider {...settings}>
