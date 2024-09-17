@@ -9,7 +9,7 @@ const initialState = {
 };
 
 export const orebiSlice = createSlice({
-  name: "orebi",
+  name: "marut",
   initialState,
   reducers: {
     addToCart: (state, action) => {
